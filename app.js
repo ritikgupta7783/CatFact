@@ -40,7 +40,7 @@ btn.addEventListener("click", async () => {
 function typeEffect(text) {
     let index = 0;
     para.textContent = "";
-    const speed = 1; // Lower = faster typing
+    const speed = 5; // Lower = faster typing
 
     function typeChar() {
         if (index < text.length) {
