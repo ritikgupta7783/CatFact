@@ -1,0 +1,58 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Heading style */
+  h4 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 12px 24px;
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #ff4757;
+    transform: translateY(-2px);
+  }
+  
+  /* Fact paragraph styling */
+  #p {
+    max-width: 500px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    padding: 10px 20px;
+    border-left: 4px solid #ff6b81;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  
